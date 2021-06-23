@@ -632,4 +632,11 @@ p {
 ul {
 padding-left: 0;
 }
+
+nav {
+    visibility: hidden;
+}
+.navfooter {
+    visibility: visible;
+}
 }
