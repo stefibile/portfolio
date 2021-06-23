@@ -4,6 +4,7 @@ html, body {
     height: 100%;
 }
 
+@media (min-width: 1100px) {
 header {
     width: 100%;
     height: 50px;
@@ -29,7 +30,7 @@ nav {
 .navsup {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .contactstyle {
@@ -45,7 +46,7 @@ nav {
 
 .contactstyle:hover {
     color: #a25757;
-    font-size: 20px;
+    
 }
 
 .contactbutton {
@@ -53,6 +54,18 @@ nav {
     padding: 10px 20px;
     color: white;
     border-radius: 20px;
+}
+.foto {
+    width: 50%;
+    padding: 0;
+    object-fit:none;
+}
+.fotoperfil {
+    margin-right:0;
+    width: 400px;
+    height: 400px;
+}
+
 }
 
 .fotoperfil {
@@ -278,8 +291,9 @@ span {
 }
 
 .mundo {
+    width: 900px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     color: seashell;
     font-weight: 900;
     margin-bottom: 0.375em;
@@ -577,4 +591,45 @@ footer {
     .mundo {
         font-size: 35px;
     }
+}
+
+@media (max-width: 902px) {
+    .fotoperfil {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1099px) {
+.presentation {
+    flex-direction: column;
+    height: 150vh;
+}
+.fotoperfil {
+    margin-top: 35px;
+
+}
+.foto {
+    padding:0;
+}
+.intro {
+    text-align: center;
+    padding: 0;
+    align-items: center;
+}
+.parrafocontacto {
+    margin-right: 75px;
+}
+h1 {
+    font-size: 35px;
+}
+label {
+    font-size: 16px;
+}
+p {
+    margin-right: 300px;
+    margin-left: 300px;
+}
+ul {
+padding-left: 0;
+}
 }
