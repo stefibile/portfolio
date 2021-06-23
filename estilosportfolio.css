@@ -291,7 +291,7 @@ span {
 }
 
 .mundo {
-    width: 900px;
+    max-width: 900px;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     color: seashell;
@@ -412,12 +412,12 @@ span {
     border: 1px solid #e0e0e0;
     padding-top: 80px;
     padding-bottom: 60px;
+    padding-left: 50px;
 }
 
 
 .contact {
     width: 50%;
-    padding-left: 50px;
 }
 
 .formulario {
@@ -604,12 +604,19 @@ footer {
     flex-direction: column;
     height: 150vh;
 }
+header {
+    display: none;
+}
 .fotoperfil {
     margin-top: 35px;
+    width: 300px;
+    height: 300px;
+    margin-right: 0;
 
 }
 .foto {
     padding:0;
+    width: auto;
 }
 .intro {
     text-align: center;
@@ -617,26 +624,40 @@ footer {
     align-items: center;
 }
 .parrafocontacto {
-    margin-right: 75px;
+    margin-right: 0;
+    font-size: 18px;
 }
 h1 {
-    font-size: 35px;
+    font-size: 40px;
+    margin-top: 30px;
 }
 label {
     font-size: 16px;
 }
 p {
-    margin-right: 300px;
-    margin-left: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 ul {
 padding-left: 0;
 }
-
+.holadiv {
+     margin: 0;
+    padding: 0 50px;
+}
+.cardcontact {
+    flex-direction: column;
+}
 nav {
     visibility: hidden;
 }
 .navfooter {
     visibility: visible;
+}
+.contact {
+    width: 100%;
+}
+.contacto {
+    padding-top: 110px;
 }
 }
