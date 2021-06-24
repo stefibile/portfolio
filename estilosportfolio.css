@@ -658,11 +658,18 @@ nav {
 h2 {
     font-size: 35px;
 }
+.intro {
+    width: 100%;
+}
+.misproyectos {
+    padding: 0 40px;
+}
 .cards {
     padding: 20px 0;
 }
 .mundo {
     font-size: 24px;
+    padding: 0 15px;
 }
 .phola {
     font-size: 16px;
@@ -680,5 +687,12 @@ h2 {
 }
 .parrafocontacto {
     font-size: 16px;
+    padding: 0 10px;
+}
+.proyect {
+    padding: 0;
+}
+.holadiv {
+    padding: 0 25px;
 }
 }
