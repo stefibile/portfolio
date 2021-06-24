@@ -655,8 +655,11 @@ nav {
 
 
 @media (max-width: 449px) {
-.conocimientos {
-    display: none;
+h2 {
+    font-size: 35px;
+}
+.cards {
+    padding: 20px 0;
 }
 .mundo {
     font-size: 24px;
