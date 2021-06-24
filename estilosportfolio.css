@@ -29,7 +29,6 @@ nav {
 
 .navsup {
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 
@@ -191,7 +190,6 @@ p {
 
 .cards {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -284,7 +282,6 @@ span {
     text-align: center;
     font-size: 1.2rem;
     max-width: 800px;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
@@ -328,7 +325,6 @@ span {
 
 .proyect {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
@@ -365,12 +361,10 @@ span {
 
 .contacto {
     width: 100%;
-    /* height: 600px; */
     display: flex;
-    flex-direction: row;
     justify-content: center;
     padding-bottom: 120px;
-    padding-top: 200px;
+    padding-top: 150px;
     background-color: #f6f7fb;
 }
 
@@ -404,7 +398,6 @@ span {
 
 .cardcontact {
     display: flex;
-    flex-direction: row;
     text-align: left;
     width: 80%;
     background-color: white;
@@ -488,7 +481,6 @@ li {
 
 .formulario1 {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
     padding-bottom: 15px;
@@ -546,7 +538,6 @@ textarea {
 
 footer {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: #a25757;
@@ -659,5 +650,32 @@ nav {
 }
 .contacto {
     padding-top: 110px;
+}
+}
+
+
+@media (max-width: 449px) {
+.conocimientos {
+    display: none;
+}
+.mundo {
+    font-size: 24px;
+}
+.phola {
+    font-size: 16px;
+}
+.cardcontact {
+    padding-left: 20px;
+}
+.submitbutton {
+    font-size: 18px;
+    border-radius: 30px;
+    max-width: 115px;
+}
+.acercademi {
+    font-size: 12px;
+}
+.parrafocontacto {
+    font-size: 16px;
 }
 }
