@@ -45,7 +45,6 @@ h3 {
 
 .foto {
     width: 50%;
-    padding: 50px 0 0 0;
     object-fit: cover;
 }
 
@@ -265,7 +264,6 @@ span {
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding: 0 50px;
 }
 
 .cardproyect {
@@ -722,5 +720,27 @@ footer {
 
     .contacto {
         padding-top: 110px;
+    }
+}
+
+@media (max-width: 701px) {
+    .navfooter {
+        visibility: hidden;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .cardproyect {
+        width: 250px;
+        height: 250px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .proimg {
+        width:150px;
+        height: 150px;
+    }
+    .foto {
+        padding: 0;
     }
 }
