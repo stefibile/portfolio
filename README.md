@@ -15,8 +15,6 @@
 -GIT
 - Deploy: Netlify
 
-
-
-[Mira aquí mi portfolio] (https://portfoliostefibile.netlify.app/)
+[Mira aquí mi portfolio](https://portfoliostefibile.netlify.app/)
 
 
