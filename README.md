@@ -1,3 +1,5 @@
+![Imagén ilustrativa de presentación del portfolio](./Educacion/ADA/Portfolio/img/readmeimagen.png)
+
 ## Portfolio
 
 ### Proyecto de Website realizada durante la cursada de la carrera de desarrollo Frontend en ADAITW. 
