@@ -1,4 +1,4 @@
-![Imagén ilustrativa de presentación del portfolio](./Portfolio/readmeimagen.png)
+![Imagén ilustrativa de presentación del portfolio](readmeimagen.png)
 
 ## Portfolio
 
