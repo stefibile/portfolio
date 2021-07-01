@@ -1,4 +1,4 @@
-![Imagén ilustrativa de presentación del portfolio](./Educacion/ADA/Portfolio/img/readmeimagen.png)
+![Imagén ilustrativa de presentación del portfolio](./Portfolio/readmeimagen.png)
 
 ## Portfolio
 
