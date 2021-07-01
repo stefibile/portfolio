@@ -38,7 +38,6 @@ h3 {
 .intro {
     display: flex;
     flex-direction: column;
-    /*width: 50%;*/
     padding: 10% 10px 0 10%;
     text-align: left;
 }
@@ -51,7 +50,7 @@ h3 {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
-    color: rgb(161, 87, 87);
+    color: #a15757;
     font-weight: 900;
     margin: 0;
     padding-bottom: 0%;
@@ -68,8 +67,8 @@ h5 {
 .buttonpresentation {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    color: white;
-    background-color: rgb(71, 62, 70);
+    color: #ffffff;
+    background-color: #473e46;
     padding: 5px 2px;
     border-radius: 40px;
     width: 200px;
@@ -83,8 +82,8 @@ h5 {
 }
 
 .buttonpresentation:hover {
-    color: white;
-    background-color: rgb(161, 87, 87);
+    color: #ffffff;
+    background-color: #a15757;
     font-size: 18px;
 }
 
@@ -103,7 +102,7 @@ h5 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 45px;
-    color: black;
+    color: #000000;
     font-weight: 900;
     margin-bottom: 0.375em;
     margin-top: 70px;
@@ -287,9 +286,9 @@ span {
 }
 
 .cardproyect:hover {
-    color: rgb(161, 87, 87);
+    color: #a15757;
     font-size: 20px;
-    border: 1px solid rgb(161, 87, 87);
+    border: 1px solid #a15757;
     box-shadow: 29px 10px 29px 0 rgb(134 134 134 / 25%);
 }
 
@@ -374,7 +373,7 @@ li {
 .icono-contenedor {
     min-width: 40px;
     min-height: 40px;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -451,7 +450,7 @@ textarea {
     display: flex;
     box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 0%);
     transition: 0.2s;
-    color:#616161;
+    color: #616161;
 }
 
 .mensaje {
@@ -497,14 +496,14 @@ footer {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     font-size: 14px;
-    color: white;
+    color: #ffffff;
 }
 
 .textfinal {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 100;
-    color: white;
+    color: #ffffff;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -556,7 +555,7 @@ footer {
     .contactbutton {
         background-color: rgb(71, 62, 70);
         padding: 10px 20px;
-        color: white;
+        color: #ffffff;
         border-radius: 20px;
     }
 
@@ -564,6 +563,7 @@ footer {
         width: 50%;
         object-fit: none;
         padding-bottom: 55px;
+        padding-top: 40px; 
     }
 
     .fotoperfil {
@@ -643,10 +643,12 @@ footer {
     .holadiv {
         padding: 0 25px;
     }
+
     .fotoperfil {
         max-width: 300px;
     }
 }
+
 @media (max-width: 1099px) {
     .presentation {
         flex-direction: column;
@@ -658,11 +660,13 @@ footer {
     }
 
     .fotoperfil {
-        margin-top: 0px;
         width: 500px;
         margin-right: 0;
     }
 
+    .buttonpresentation {
+        margin-top: 20px;
+    }
 
     .foto {
         width: auto;
@@ -727,19 +731,33 @@ footer {
     .navfooter {
         visibility: hidden;
     }
-    h1 {
-        font-size: 40px;
+
+    footer {
+        padding-top: 0;
     }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    .buttonpresentation {
+        font-size: 14px;
+        width: 170px;
+        height: 45px;
+    }
+
     .cardproyect {
         width: 250px;
         height: 250px;
         display: flex;
         flex-wrap: nowrap;
     }
+
     .proimg {
-        width:150px;
+        width: 150px;
         height: 150px;
     }
+
     .foto {
         padding: 0;
     }
