@@ -13,8 +13,8 @@
 ## Construido con:
 - HTML 5
 - CSS 3
-- Maquetado Display-Flex
--GIT
+- Flexbox
+- GIT
 - Deploy: Netlify
 
 [Mira aquí mi portfolio](https://portfoliostefibile.netlify.app/)
