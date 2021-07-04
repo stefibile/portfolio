@@ -3,7 +3,7 @@
 ## Portfolio
 
 ### Proyecto de Website realizada durante la cursada de la carrera de desarrollo Frontend en ADAITW. 
-### Objetivo: Primer acercamiento a HTML 5, CSS 3 y maquetado con Flex 
+### Objetivo: Primer acercamiento a HTML 5, CSS 3 y maquetado con Flexbox.
 
 ## Funcionalidad:
 
