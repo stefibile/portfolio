@@ -1,4 +1,4 @@
-![Imagén ilustrativa de presentación del portfolio](readmeimagen.png)
+![Imagén ilustrativa de presentación del portfolio](readmeimagenstefi.png)
 
 ## Portfolio
 
