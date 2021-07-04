@@ -594,8 +594,12 @@ footer {
 }
 
 @media (max-width: 449px) {
+    h1 {
+        padding: 0px 10px;
+        font-size: 40px;
+    }
     h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .intro {
